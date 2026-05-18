@@ -1,1 +1,367 @@
-ttttt
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Sarra Saad</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">SS</span>
+    <ul class="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-inner">
+      <p class="hero-tag">BUT Informatique · Promo 2025</p>
+      <h1 class="hero-title">
+        Sarra<br/>
+        <em>Saad</em>
+      </h1>
+      <a href="#projets" class="hero-btn">Voir mes projets <span class="arrow">↓</span></a>
+    </div>
+    <div class="hero-deco">
+      <svg class="deco-ring" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="200" cy="200" r="180" stroke="url(#ringGrad)" stroke-width="1"/>
+        <circle cx="200" cy="200" r="120" stroke="url(#ringGrad2)" stroke-width="0.5" stroke-dasharray="6 4"/>
+        <circle cx="200" cy="200" r="60" stroke="url(#ringGrad)" stroke-width="1"/>
+        <defs>
+          <linearGradient id="ringGrad" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#c084fc" stop-opacity="0.6"/>
+            <stop offset="100%" stop-color="#f472b6" stop-opacity="0.2"/>
+          </linearGradient>
+          <linearGradient id="ringGrad2" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#e879f9" stop-opacity="0.3"/>
+            <stop offset="100%" stop-color="#c084fc" stop-opacity="0.1"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="avatar-wrap">
+            <div class="avatar-placeholder">SS</div>
+            <div class="avatar-ring"></div>
+          </div>
+        </div>
+        <div class="about-right">
+          <p class="section-label">// À propos</p>
+          <h2>Présentation</h2>
+          <p class="about-bio">
+            Je suis étudiante en 1ère année de BUT Informatique à l'IUT. Passionnée par
+            les réseaux et la cybersécurité.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Java</span>
+            <span class="tag">HTML / CSS</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Linux</span>
+            <span class="tag">Réseaux</span>
+          </div>
+          <div class="about-meta">
+            <div class="meta-item">
+              <span class="meta-label">Formation</span>
+              <span class="meta-value">BUT Informatique</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Objectif</span>
+              <span class="meta-value">Ingénieure en cybersécurité</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Localisation</span>
+              <span class="meta-value">Grenoble, France</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projets">
+    <div class="container">
+      <p class="section-label">// Projets</p>
+      <h2>Mes PROJETS</h2>
+      <p class="section-intro">Projets réalisés dans le cadre du BUT Informatique — 1ère année.</p>
+      <div class="projects-grid">
+
+        <a href="sae101.html" class="project-card">
+          <div class="card-num">01/ Chatbot</div>
+          <div class="card-content">
+            <span class="card-tech">Java · Algorithmique</span>
+            
+            <p>Chatbot Java capable d'apprendre des réponses de l'utilisateur, avec comparaison d'approches algorithmiques.</p>
+            <span class="card-link">Voir le projet →</span>
+          </div>
+        </a>
+
+        <a href="sae103.html" class="project-card">
+          <div class="card-num">02/ Machine virtuelle</div>
+          <div class="card-content">
+            <span class="card-tech">Linux · Debian · Carte mentale</span>
+            
+            <p>Installation d'un poste de travail sous Debian 13 et création d'une carte mentale synthétisant les étapes clés.</p>
+            <span class="card-link">Voir le projet →</span>
+          </div>
+        </a>
+
+        <a href="sae104.html" class="project-card">
+          <div class="card-num">03/Base de donées</div>
+          <div class="card-content">
+            <span class="card-tech">SQL · PostgreSQL · DBeaver</span>
+            
+            <p>Conception et administration d'une base de données relationnelle pour une compagnie d'organisation de sorties.</p>
+            <span class="card-link">Voir le projet →</span>
+          </div>
+        </a>
+
+        <a href="sae10506.html" class="project-card">
+          <div class="card-num">04/Site web</div>
+          <div class="card-content">
+            <span class="card-tech">HTML · CSS · Gestion de projet</span>
+            
+            <p>Création d'un site web vitrine pour Capgemini, destiné aux élèves de 3ème en recherche de stage.</p>
+            <span class="card-link">Voir le projet →</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <p class="section-label">// Contact</p>
+      <h2>Me contacter</h2>
+      <p class="section-intro">Je suis ouverte aux opportunités de stage et aux échanges professionnels.</p>
+      <div class="contact-grid">
+        <a href="mailto:sarra.saad@etu.univ-grenoble-alpes" class="contact-card">
+          <div class="contact-icon">✉</div>
+          <div>
+            <p class="contact-type">Email institutionnel</p>
+            <p class="contact-val">sarra.saad@etu.univ-grenoble-alpes.fr</p>
+          </div>
+        </a>
+        <a href="https://linkedin.com/in/Sarra Saad" target="_blank" class="contact-card">
+          <div class="contact-icon">in</div>
+          <div>
+            <p class="contact-type">LinkedIn</p>
+            <p class="contact-val">linkedin.com/in/sarra-saad</p>
+          </div>
+        </a>
+        <a href="https://github.com/VOTRE-PROFIL" target="_blank" class="contact-card">
+          <div class="contact-icon">⌥</div>
+          <div>
+            <p class="contact-type">GitHub</p>
+            <p class="contact-val">github.com/sarra-saad</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Sarra Saad · BUT Informatique 2025/2026</p>
+  </footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Sarra Saad</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">SS</span>
+    <ul class="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-inner">
+      <p class="hero-tag">BUT Informatique · Promo 2025</p>
+      <h1 class="hero-title">
+        Sarra<br/>
+        <em>Saad</em>
+      </h1>
+      <a href="#projets" class="hero-btn">Voir mes projets <span class="arrow">↓</span></a>
+    </div>
+    <div class="hero-deco">
+      <svg class="deco-ring" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="200" cy="200" r="180" stroke="url(#ringGrad)" stroke-width="1"/>
+        <circle cx="200" cy="200" r="120" stroke="url(#ringGrad2)" stroke-width="0.5" stroke-dasharray="6 4"/>
+        <circle cx="200" cy="200" r="60" stroke="url(#ringGrad)" stroke-width="1"/>
+        <defs>
+          <linearGradient id="ringGrad" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#c084fc" stop-opacity="0.6"/>
+            <stop offset="100%" stop-color="#f472b6" stop-opacity="0.2"/>
+          </linearGradient>
+          <linearGradient id="ringGrad2" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#e879f9" stop-opacity="0.3"/>
+            <stop offset="100%" stop-color="#c084fc" stop-opacity="0.1"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="avatar-wrap">
+            <div class="avatar-placeholder">SS</div>
+            <div class="avatar-ring"></div>
+          </div>
+        </div>
+        <div class="about-right">
+          <p class="section-label">// À propos</p>
+          <h2>Présentation</h2>
+          <p class="about-bio">
+            Je suis étudiante en 1ère année de BUT Informatique à l'IUT. Passionnée par
+            les réseaux et la cybersécurité.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Java</span>
+            <span class="tag">HTML / CSS</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Linux</span>
+            <span class="tag">Réseaux</span>
+          </div>
+          <div class="about-meta">
+            <div class="meta-item">
+              <span class="meta-label">Formation</span>
+              <span class="meta-value">BUT Informatique</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Objectif</span>
+              <span class="meta-value">Ingénieure en cybersécurité</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Localisation</span>
+              <span class="meta-value">Grenoble, France</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projets">
+    <div class="container">
+      <p class="section-label">// Projets</p>
+      <h2>Mes PROJETS</h2>
+      <p class="section-intro">Projets réalisés dans le cadre du BUT Informatique — 1ère année.</p>
+      <div class="projects-grid">
+
+        <a href="sae101.html" class="project-card">
+          <div class="card-num">01/ Chatbot</div>
+          <div class="card-content">
+            <span class="card-tech">Java · Algorithmique</span>
+            
+            <p>Chatbot Java capable d'apprendre des réponses de l'utilisateur, avec comparaison d'approches algorithmiques.</p>
+            <span class="card-link">Voir le projet →</span>
+          </div>
+        </a>
+
+        <a href="sae103.html" class="project-card">
+          <div class="card-num">02/ Machine virtuelle</div>
+          <div class="card-content">
+            <span class="card-tech">Linux · Debian · Carte mentale</span>
+            
+            <p>Installation d'un poste de travail sous Debian 13 et création d'une carte mentale synthétisant les étapes clés.</p>
+            <span class="card-link">Voir le projet →</span>
+          </div>
+        </a>
+
+        <a href="sae104.html" class="project-card">
+          <div class="card-num">03/Base de donées</div>
+          <div class="card-content">
+            <span class="card-tech">SQL · PostgreSQL · DBeaver</span>
+            
+            <p>Conception et administration d'une base de données relationnelle pour une compagnie d'organisation de sorties.</p>
+            <span class="card-link">Voir le projet →</span>
+          </div>
+        </a>
+
+        <a href="sae10506.html" class="project-card">
+          <div class="card-num">04/Site web</div>
+          <div class="card-content">
+            <span class="card-tech">HTML · CSS · Gestion de projet</span>
+            
+            <p>Création d'un site web vitrine pour Capgemini, destiné aux élèves de 3ème en recherche de stage.</p>
+            <span class="card-link">Voir le projet →</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <p class="section-label">// Contact</p>
+      <h2>Me contacter</h2>
+      <p class="section-intro">Je suis ouverte aux opportunités de stage et aux échanges professionnels.</p>
+      <div class="contact-grid">
+        <a href="mailto:sarra.saad@etu.univ-grenoble-alpes" class="contact-card">
+          <div class="contact-icon">✉</div>
+          <div>
+            <p class="contact-type">Email institutionnel</p>
+            <p class="contact-val">sarra.saad@etu.univ-grenoble-alpes.fr</p>
+          </div>
+        </a>
+        <a href="https://linkedin.com/in/Sarra Saad" target="_blank" class="contact-card">
+          <div class="contact-icon">in</div>
+          <div>
+            <p class="contact-type">LinkedIn</p>
+            <p class="contact-val">linkedin.com/in/sarra-saad</p>
+          </div>
+        </a>
+        <a href="https://github.com/VOTRE-PROFIL" target="_blank" class="contact-card">
+          <div class="contact-icon">⌥</div>
+          <div>
+            <p class="contact-type">GitHub</p>
+            <p class="contact-val">github.com/sarra-saad</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Sarra Saad · BUT Informatique 2025/2026</p>
+  </footer>
+
+</body>
+</html>
